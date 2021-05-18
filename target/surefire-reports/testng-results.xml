@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-18T10:45:44 CEST" name="TestALL" finished-at="2021-05-18T10:45:50 CEST" duration-ms="6572">
+    <groups>
+    </groups>
+    <test started-at="2021-05-18T10:45:44 CEST" name="AddUser" finished-at="2021-05-18T10:45:50 CEST" duration-ms="6572">
+      <class name="Tests.test1">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.test1@37858383]" started-at="2021-05-18T10:45:44 CEST" name="init" description="Initialization of WebDriver" finished-at="2021-05-18T10:45:50 CEST" duration-ms="6461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="fd(java.lang.String)[pri:0, instance:Tests.test1@37858383]" started-at="2021-05-18T10:45:50 CEST" name="fd" data-provider="inputStart" finished-at="2021-05-18T10:45:50 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://phptravels.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd -->
+      </class> <!-- Tests.test1 -->
+    </test> <!-- AddUser -->
+  </suite> <!-- TestALL -->
+</testng-results>
